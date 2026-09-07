@@ -5,7 +5,7 @@ about:
   head: d02512a
   archived: false
   latestVersion: "release-1.12.2"
-  collectedAt: 2026-09-07T05:40:55Z
+  collectedAt: 2026-09-07T18:52:46Z
 timeline:
   created: 2009-05-21
   lastCommit: 2026-08-27
@@ -16,7 +16,7 @@ popularity:
   fork: 1771
   release: 23
   contributor: 430
-  pullRequest: 3978
+  pullRequest: 3979
   issue: 0
 language:
   Java: 4863159
@@ -44,7 +44,7 @@ recent:
     since: 2026-08-08
     release: 1
     mergedPR: 4
-    openPR: 39
+    openPR: 40
     closedIssue: 0
     openIssue: 0
     commit: 6
@@ -52,7 +52,7 @@ recent:
     since: 2026-07-09
     release: 1
     mergedPR: 48
-    openPR: 69
+    openPR: 70
     closedIssue: 0
     openIssue: 0
     commit: 51
@@ -60,7 +60,7 @@ recent:
     since: 2026-06-09
     release: 1
     mergedPR: 65
-    openPR: 72
+    openPR: 73
     closedIssue: 0
     openIssue: 0
     commit: 66
@@ -68,7 +68,7 @@ recent:
     since: 2026-03-11
     release: 1
     mergedPR: 167
-    openPR: 86
+    openPR: 87
     closedIssue: 0
     openIssue: 0
     commit: 154
@@ -76,7 +76,7 @@ recent:
     since: 2025-09-12
     release: 1
     mergedPR: 322
-    openPR: 101
+    openPR: 102
     closedIssue: 0
     openIssue: 0
     commit: 323
@@ -84,20 +84,20 @@ recent:
     since: 2024-09-17
     release: 1
     mergedPR: 552
-    openPR: 115
+    openPR: 116
     closedIssue: 0
     openIssue: 0
     commit: 574
 total:
   release: 23
   mergedPR: 2910
-  openPR: 232
+  openPR: 233
   closedIssue: 0
   openIssue: 0
   commit: 5100
 ---
 path: /home/runner/.x-repo/github.com/apache/avro
-collectedAt: 2026-09-07T05:41:06Z
+collectedAt: 2026-09-07T18:52:58Z
 loc:
   Java:
     code: 98399
@@ -538,7 +538,7 @@ checks:
       - 'Warn: 23 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:41:08+00:00
+  collectedAt: 2026-09-07T18:52:59+00:00
   platform:
     darwin/arm64:
       name:  null
