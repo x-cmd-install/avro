@@ -7,7 +7,7 @@ about:
   latestVersion: "release-1.12.2"
   latestRelease: "release-1.12.2"
   latestPrerelease: "release-1.10.0-rc2"
-  collectedAt: 2026-09-09T05:37:52Z
+  collectedAt: 2026-09-09T20:13:27Z
 timeline:
   created: 2009-05-21
   lastCommit: 2026-08-27
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 3304
   watcher: 100
-  fork: 1771
+  fork: 1772
   release: 23
   contributor: 430
   pullRequest: 3979
@@ -101,7 +101,7 @@ total:
   commit: 5100
 ---
 path: /home/runner/.x-repo/github.com/apache/avro
-collectedAt: 2026-09-09T05:38:02Z
+collectedAt: 2026-09-09T20:13:43Z
 loc:
   Java:
     code: 98399
