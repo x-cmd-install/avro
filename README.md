@@ -12,35 +12,7 @@ Apache Avro is a data serialization system.
 x install avro
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/apache/avro>
-- **Homepage**: <https://avro.apache.org/>
-- **License**: Apache-2.0
-
-## Release
-
-- **Latest**: `release-1.12.2` (2026-08-23)
-- **Last commit**: 2026-08-27
-- **Published**: 2026-08-23T12:24:24Z
-
-## Popularity
-
-- **Stars**: 3,304 · **Forks**: 1,772 · **Open issues**: 0 · **Contributors**: 430
-
-## Totals (cumulative)
-
-- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 233 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 4 | 37 | 0 | 0 | 6 |
-| 90d | 2026-06-12 | 1 | 65 | 73 | 0 | 0 | 66 |
-| 360d | 2025-09-15 | 1 | 319 | 102 | 0 | 0 | 323 |
-
-## Code size
+## Code insight
 
 Total: **227,583** lines of code across **1178** files in the top 5 languages.
 
@@ -62,13 +34,60 @@ Lowest-scoring checks:
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
+## Source
+
+- **Upstream**: <https://github.com/apache/avro>
+- **Homepage**: <https://avro.apache.org/>
+- **License**: Apache-2.0
+
+## Release
+
+- **Latest**: `release-1.12.2` (2026-08-23)
+- **Last commit**: 2026-08-27
+
+## Popularity
+
+- **Stars**: 3,305 · **Forks**: 1,772 · **Open issues**: 0 · **Contributors**: 430
+
+## Totals (cumulative)
+
+- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 233 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 4 | 37 | 0 | 0 | 6 |
+| last60d | 2026-07-12 | 1 | 39 | 55 | 0 | 0 | 51 |
+| 90d | 2026-06-12 | 1 | 65 | 73 | 0 | 0 | 66 |
+| last180d | 2026-03-14 | 1 | 167 | 87 | 0 | 0 | 154 |
+| 360d | 2025-09-15 | 1 | 319 | 102 | 0 | 0 | 323 |
+| last720d | 2024-09-20 | 1 | 550 | 116 | 0 | 0 | 574 |
+
+## Distribution status
+
+Reported by **209** distros on [repology.org](https://repology.org/project/avro). **14** are ✅ on the latest upstream release, **190** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian 14 | `1.12.1` | ⚠️ outdated |
+| Debian 13 | `1.12.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
+| Homebrew | `1.12.2` | ✅ latest |
+| Fedora rawhide | `1.12.0` | ⚠️ outdated |
+| Nix unstable | `1.12.1` | ⚠️ outdated |
+| Alpine edge | `1.12.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `avro` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/avro.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/avro.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:40:08Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:51:18Z._
