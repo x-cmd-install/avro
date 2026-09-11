@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 233 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
+- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 234 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 4 | 37 | 0 | 0 | 6 |
-| last60d | 2026-07-12 | 1 | 39 | 55 | 0 | 0 | 51 |
-| 90d | 2026-06-12 | 1 | 65 | 73 | 0 | 0 | 66 |
-| last180d | 2026-03-14 | 1 | 167 | 87 | 0 | 0 | 154 |
-| 360d | 2025-09-15 | 1 | 319 | 102 | 0 | 0 | 323 |
-| last720d | 2024-09-20 | 1 | 550 | 116 | 0 | 0 | 574 |
+| 30d | 2026-08-12 | 1 | 4 | 38 | 0 | 0 | 6 |
+| last60d | 2026-07-13 | 1 | 39 | 55 | 0 | 0 | 51 |
+| 90d | 2026-06-13 | 1 | 65 | 74 | 0 | 0 | 66 |
+| last180d | 2026-03-15 | 1 | 162 | 88 | 0 | 0 | 154 |
+| 360d | 2025-09-16 | 1 | 319 | 103 | 0 | 0 | 323 |
+| last720d | 2024-09-21 | 1 | 550 | 117 | 0 | 0 | 574 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:56:32Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:36:59Z._
