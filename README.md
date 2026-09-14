@@ -51,35 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 234 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
+- **Releases**: 23 · **Merged PRs**: 2910 · **Open PRs**: 240 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5100
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 4 | 38 | 0 | 0 | 6 |
-| last60d | 2026-07-15 | 1 | 39 | 55 | 0 | 0 | 51 |
-| 90d | 2026-06-15 | 1 | 59 | 74 | 0 | 0 | 66 |
-| last180d | 2026-03-17 | 1 | 162 | 88 | 0 | 0 | 154 |
-| 360d | 2025-09-18 | 1 | 319 | 103 | 0 | 0 | 323 |
-| last720d | 2024-09-23 | 1 | 548 | 117 | 0 | 0 | 574 |
-
-## Distribution status
-
-Reported by **209** distros on [repology.org](https://repology.org/project/avro). **14** are ✅ on the latest upstream release, **190** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.12.1` | ⚠️ outdated |
-| Debian 14 | `1.12.1` | ⚠️ outdated |
-| Debian 13 | `1.12.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
-| Homebrew | `1.12.2` | ✅ latest |
-| Fedora rawhide | `1.12.0` | ⚠️ outdated |
-| Nix unstable | `1.12.1` | ⚠️ outdated |
-| Alpine edge | `1.12.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
+| 30d | 2026-08-15 | 1 | 4 | 45 | 0 | 0 | 4 |
+| last60d | 2026-07-16 | 1 | 39 | 61 | 0 | 0 | 41 |
+| 90d | 2026-06-16 | 1 | 59 | 80 | 0 | 0 | 58 |
+| last180d | 2026-03-18 | 1 | 162 | 94 | 0 | 0 | 145 |
+| 360d | 2025-09-19 | 1 | 319 | 108 | 0 | 0 | 320 |
+| last720d | 2024-09-24 | 1 | 548 | 123 | 0 | 0 | 570 |
 
 ## Improve this data
 
@@ -90,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:39:49Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:51:51Z._
