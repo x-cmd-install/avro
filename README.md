@@ -4,7 +4,7 @@
 
 Apache Avro is a data serialization system.
 
-![avro](https://repo.x-cmd.io/avro.svg)
+[![x-cmd/install — avro Code Quality Monitoring Repo Card](https://repo.x-cmd.io/avro.svg)](https://x-cmd.com/install/avro)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,307 · **Forks**: 1,773 · **Open issues**: 0 · **Contributors**: 430
+- **Stars**: 3,306 · **Forks**: 1,775 · **Open issues**: 0 · **Contributors**: 430
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 4 | 43 | 0 | 0 | 5 |
-| last60d | 2026-07-20 | 1 | 29 | 58 | 0 | 0 | 42 |
-| 90d | 2026-06-20 | 1 | 58 | 79 | 0 | 0 | 59 |
-| last180d | 2026-03-22 | 1 | 154 | 94 | 0 | 0 | 146 |
-| 360d | 2025-09-23 | 1 | 318 | 107 | 0 | 0 | 321 |
-| last720d | 2024-09-28 | 1 | 542 | 123 | 0 | 0 | 563 |
+| 30d | 2026-08-21 | 1 | 4 | 43 | 0 | 0 | 5 |
+| last60d | 2026-07-22 | 1 | 27 | 57 | 0 | 0 | 42 |
+| 90d | 2026-06-22 | 1 | 55 | 78 | 0 | 0 | 59 |
+| last180d | 2026-03-24 | 1 | 153 | 94 | 0 | 0 | 146 |
+| 360d | 2025-09-25 | 1 | 318 | 107 | 0 | 0 | 321 |
+| last720d | 2024-09-30 | 1 | 539 | 123 | 0 | 0 | 562 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:43:00Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:45:25Z._
