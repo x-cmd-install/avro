@@ -4,7 +4,7 @@
 
 Apache Avro is a data serialization system.
 
-[![x-cmd/install — avro Code Quality Monitoring Repo Card](https://repo.x-cmd.io/avro.svg?lang=zh)](https://x-cmd.com/install/avro)
+[![x-cmd/install — avro Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/avro.svg?lang=zh)](https://x-cmd.com/install/avro)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install avro
 
 ## 流行度
 
-- **Star**: 3,306 · **Fork**: 1,774 · **开放 issue**: 0 · **贡献者**: 430
+- **Star**: 3,305 · **Fork**: 1,774 · **开放 issue**: 0 · **贡献者**: 430
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install avro
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 4 | 35 | 0 | 0 | 2 |
-| last60d | 2026-07-24 | 1 | 28 | 58 | 0 | 0 | 33 |
-| 90d | 2026-06-24 | 1 | 56 | 80 | 0 | 0 | 60 |
-| last180d | 2026-03-26 | 1 | 150 | 96 | 0 | 0 | 143 |
-| 360d | 2025-09-27 | 1 | 319 | 109 | 0 | 0 | 322 |
-| last720d | 2024-10-02 | 1 | 539 | 124 | 0 | 0 | 563 |
+| 30d | 2026-08-24 | 0 | 2 | 29 | 0 | 0 | 2 |
+| last60d | 2026-07-25 | 1 | 28 | 57 | 0 | 0 | 33 |
+| 90d | 2026-06-25 | 1 | 56 | 80 | 0 | 0 | 60 |
+| last180d | 2026-03-27 | 1 | 149 | 95 | 0 | 0 | 143 |
+| 360d | 2025-09-28 | 1 | 316 | 109 | 0 | 0 | 322 |
+| last720d | 2024-10-03 | 1 | 539 | 123 | 0 | 0 | 563 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ avro 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:02:00Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:51:48Z._
