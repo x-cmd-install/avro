@@ -30,8 +30,8 @@ Overall score: **7 / 10**
 
 Lowest-scoring checks:
 
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,306 · **Forks**: 1,776 · **Open issues**: 0 · **Contributors**: 431
+- **Stars**: 3,307 · **Forks**: 1,776 · **Open issues**: 0 · **Contributors**: 431
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 2 | 36 | 0 | 0 | 2 |
-| last60d | 2026-08-06 | 1 | 7 | 63 | 0 | 0 | 9 |
-| 90d | 2026-07-07 | 1 | 52 | 87 | 0 | 0 | 54 |
-| last180d | 2026-04-08 | 1 | 137 | 102 | 0 | 0 | 138 |
-| 360d | 2025-10-10 | 1 | 312 | 117 | 0 | 0 | 320 |
-| last720d | 2024-10-15 | 1 | 534 | 130 | 0 | 0 | 553 |
+| 30d | 2026-09-06 | 0 | 2 | 32 | 0 | 0 | 2 |
+| last60d | 2026-08-07 | 1 | 7 | 58 | 0 | 0 | 9 |
+| 90d | 2026-07-08 | 1 | 52 | 87 | 0 | 0 | 54 |
+| last180d | 2026-04-09 | 1 | 137 | 102 | 0 | 0 | 138 |
+| 360d | 2025-10-11 | 1 | 312 | 117 | 0 | 0 | 320 |
+| last720d | 2024-10-16 | 1 | 531 | 130 | 0 | 0 | 553 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:22:48Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:11:13Z._
