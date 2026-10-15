@@ -14,14 +14,14 @@ x install avro
 
 ## Code insight
 
-Total: **227,617** lines of code across **1178** files in the top 5 languages.
+Total: **227,699** lines of code across **1178** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Java | 98,399 | 35,825 | 19,317 | 783 |
 | CSharp | 27,974 | 10,645 | 4,214 | 229 |
 | C | 24,162 | 3,110 | 4,423 | 71 |
-| Cpp | 14,884 | 1,389 | 2,327 | 51 |
+| Cpp | 14,966 | 1,390 | 2,332 | 51 |
 | Python | 10,091 | 1,391 | 1,758 | 44 |
 
 ## OpenSSF Scorecard
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.12.2` (2026-08-23)
-- **Last commit**: 2026-10-01
+- **Last commit**: 2026-10-14
 
 ## Popularity
 
-- **Stars**: 3,306 · **Forks**: 1,780 · **Open issues**: 0 · **Contributors**: 431
+- **Stars**: 3,306 · **Forks**: 1,781 · **Open issues**: 0 · **Contributors**: 433
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2914 · **Open PRs**: 259 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5103
+- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 260 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 2 | 37 | 0 | 0 | 2 |
-| last60d | 2026-08-15 | 1 | 7 | 66 | 0 | 0 | 7 |
-| 90d | 2026-07-16 | 1 | 42 | 82 | 0 | 0 | 45 |
-| last180d | 2026-04-17 | 1 | 131 | 112 | 0 | 0 | 127 |
-| 360d | 2025-10-19 | 1 | 302 | 126 | 0 | 0 | 316 |
-| last720d | 2024-10-24 | 1 | 529 | 140 | 0 | 0 | 548 |
+| 30d | 2026-09-15 | 0 | 3 | 38 | 0 | 0 | 3 |
+| last60d | 2026-08-16 | 1 | 8 | 67 | 0 | 0 | 8 |
+| 90d | 2026-07-17 | 1 | 43 | 82 | 0 | 0 | 46 |
+| last180d | 2026-04-18 | 1 | 132 | 113 | 0 | 0 | 128 |
+| 360d | 2025-10-20 | 1 | 302 | 127 | 0 | 0 | 317 |
+| last720d | 2024-10-25 | 1 | 530 | 141 | 0 | 0 | 549 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:42:27Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T05:16:45Z._
