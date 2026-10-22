@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,305 · **Forks**: 1,782 · **Open issues**: 0 · **Contributors**: 433
+- **Stars**: 3,306 · **Forks**: 1,783 · **Open issues**: 0 · **Contributors**: 433
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 2 | 38 | 0 | 0 | 2 |
-| last60d | 2026-08-22 | 1 | 7 | 64 | 0 | 0 | 5 |
-| 90d | 2026-07-23 | 1 | 30 | 81 | 0 | 0 | 35 |
-| last180d | 2026-04-24 | 1 | 125 | 116 | 0 | 0 | 125 |
-| 360d | 2025-10-26 | 1 | 292 | 129 | 0 | 0 | 285 |
-| last720d | 2024-10-31 | 1 | 524 | 144 | 0 | 0 | 544 |
+| 30d | 2026-09-22 | 0 | 2 | 38 | 0 | 0 | 2 |
+| last60d | 2026-08-23 | 1 | 6 | 60 | 0 | 0 | 5 |
+| 90d | 2026-07-24 | 1 | 30 | 81 | 0 | 0 | 35 |
+| last180d | 2026-04-25 | 1 | 125 | 116 | 0 | 0 | 125 |
+| 360d | 2025-10-27 | 1 | 290 | 129 | 0 | 0 | 285 |
+| last720d | 2024-11-01 | 1 | 524 | 144 | 0 | 0 | 544 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:27:49Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:28:28Z._
