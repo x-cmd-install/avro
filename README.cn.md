@@ -57,12 +57,29 @@ x install avro
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 2 | 38 | 0 | 0 | 2 |
-| last60d | 2026-08-23 | 1 | 6 | 60 | 0 | 0 | 5 |
-| 90d | 2026-07-24 | 1 | 30 | 81 | 0 | 0 | 35 |
-| last180d | 2026-04-25 | 1 | 125 | 116 | 0 | 0 | 125 |
-| 360d | 2025-10-27 | 1 | 290 | 129 | 0 | 0 | 285 |
-| last720d | 2024-11-01 | 1 | 524 | 144 | 0 | 0 | 544 |
+| 30d | 2026-09-23 | 0 | 2 | 38 | 0 | 0 | 2 |
+| last60d | 2026-08-24 | 0 | 4 | 54 | 0 | 0 | 5 |
+| 90d | 2026-07-25 | 1 | 30 | 80 | 0 | 0 | 35 |
+| last180d | 2026-04-26 | 1 | 122 | 116 | 0 | 0 | 125 |
+| 360d | 2025-10-28 | 1 | 290 | 129 | 0 | 0 | 285 |
+| last720d | 2024-11-02 | 1 | 524 | 144 | 0 | 0 | 544 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/avro) 上共有 **205** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**183** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian 14 | `1.12.1` | ⚠️ outdated |
+| Debian 13 | `1.12.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
+| Homebrew | `1.12.2` | ✅ latest |
+| Fedora rawhide | `1.12.0` | ⚠️ outdated |
+| Nix unstable | `1.12.1` | ⚠️ outdated |
+| Alpine edge | `1.12.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -73,4 +90,4 @@ avro 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:28:29Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:30:55Z._
