@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,307 · **Forks**: 1,784 · **Open issues**: 0 · **Contributors**: 433
+- **Stars**: 3,308 · **Forks**: 1,784 · **Open issues**: 0 · **Contributors**: 433
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 264 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
+- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 266 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 1 | 39 | 0 | 0 | 2 |
-| last60d | 2026-08-26 | 0 | 4 | 53 | 0 | 0 | 5 |
-| 90d | 2026-07-27 | 1 | 26 | 81 | 0 | 0 | 35 |
-| last180d | 2026-04-28 | 1 | 120 | 117 | 0 | 0 | 125 |
-| 360d | 2025-10-30 | 1 | 290 | 130 | 0 | 0 | 285 |
-| last720d | 2024-11-04 | 1 | 521 | 145 | 0 | 0 | 544 |
+| 30d | 2026-09-26 | 0 | 1 | 42 | 0 | 0 | 1 |
+| last60d | 2026-08-27 | 0 | 4 | 55 | 0 | 0 | 3 |
+| 90d | 2026-07-28 | 1 | 26 | 84 | 0 | 0 | 31 |
+| last180d | 2026-04-29 | 1 | 120 | 118 | 0 | 0 | 121 |
+| 360d | 2025-10-31 | 1 | 290 | 132 | 0 | 0 | 281 |
+| last720d | 2024-11-05 | 1 | 521 | 147 | 0 | 0 | 542 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:20:35Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:34:10Z._
