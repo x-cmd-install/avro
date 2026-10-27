@@ -32,7 +32,7 @@ x install avro
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
+- **Signed-Releases** (-1/10) — no releases found
 
 ## 源代码
 
@@ -57,12 +57,12 @@ x install avro
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 1 | 42 | 0 | 0 | 1 |
-| last60d | 2026-08-27 | 0 | 4 | 55 | 0 | 0 | 3 |
-| 90d | 2026-07-28 | 1 | 26 | 84 | 0 | 0 | 31 |
-| last180d | 2026-04-29 | 1 | 120 | 118 | 0 | 0 | 121 |
-| 360d | 2025-10-31 | 1 | 290 | 132 | 0 | 0 | 281 |
-| last720d | 2024-11-05 | 1 | 521 | 147 | 0 | 0 | 542 |
+| 30d | 2026-09-27 | 0 | 1 | 38 | 0 | 0 | 1 |
+| last60d | 2026-08-28 | 0 | 4 | 55 | 0 | 0 | 3 |
+| 90d | 2026-07-29 | 1 | 26 | 81 | 0 | 0 | 31 |
+| last180d | 2026-04-30 | 1 | 119 | 117 | 0 | 0 | 121 |
+| 360d | 2025-11-01 | 1 | 290 | 132 | 0 | 0 | 281 |
+| last720d | 2024-11-06 | 1 | 521 | 147 | 0 | 0 | 542 |
 
 ## 发行版状态
 
@@ -90,4 +90,4 @@ avro 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T05:34:11Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T05:53:44Z._

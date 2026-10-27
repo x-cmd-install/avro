@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
+- **Signed-Releases** (-1/10) — no releases found
 
 ## Source
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 1 | 42 | 0 | 0 | 1 |
-| last60d | 2026-08-27 | 0 | 4 | 55 | 0 | 0 | 3 |
-| 90d | 2026-07-28 | 1 | 26 | 84 | 0 | 0 | 31 |
-| last180d | 2026-04-29 | 1 | 120 | 118 | 0 | 0 | 121 |
-| 360d | 2025-10-31 | 1 | 290 | 132 | 0 | 0 | 281 |
-| last720d | 2024-11-05 | 1 | 521 | 147 | 0 | 0 | 542 |
+| 30d | 2026-09-27 | 0 | 1 | 38 | 0 | 0 | 1 |
+| last60d | 2026-08-28 | 0 | 4 | 55 | 0 | 0 | 3 |
+| 90d | 2026-07-29 | 1 | 26 | 81 | 0 | 0 | 31 |
+| last180d | 2026-04-30 | 1 | 119 | 117 | 0 | 0 | 121 |
+| 360d | 2025-11-01 | 1 | 290 | 132 | 0 | 0 | 281 |
+| last720d | 2024-11-06 | 1 | 521 | 147 | 0 | 0 | 542 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:34:10Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:53:42Z._
