@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,308 · **Forks**: 1,784 · **Open issues**: 0 · **Contributors**: 433
+- **Stars**: 3,309 · **Forks**: 1,784 · **Open issues**: 0 · **Contributors**: 433
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 1 | 38 | 0 | 0 | 1 |
-| last60d | 2026-08-31 | 0 | 3 | 55 | 0 | 0 | 3 |
-| 90d | 2026-08-01 | 1 | 25 | 81 | 0 | 0 | 31 |
-| last180d | 2026-05-03 | 1 | 110 | 115 | 0 | 0 | 121 |
-| 360d | 2025-11-04 | 1 | 287 | 131 | 0 | 0 | 281 |
-| last720d | 2024-11-09 | 1 | 521 | 147 | 0 | 0 | 542 |
+| 30d | 2026-10-01 | 0 | 1 | 36 | 0 | 0 | 1 |
+| last60d | 2026-09-01 | 0 | 3 | 55 | 0 | 0 | 3 |
+| 90d | 2026-08-02 | 1 | 18 | 81 | 0 | 0 | 31 |
+| last180d | 2026-05-04 | 1 | 110 | 115 | 0 | 0 | 121 |
+| 360d | 2025-11-05 | 1 | 287 | 131 | 0 | 0 | 281 |
+| last720d | 2024-11-10 | 1 | 521 | 147 | 0 | 0 | 542 |
 
 ## Distribution status
 
-Reported by **205** distros on [repology.org](https://repology.org/project/avro). **17** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
+Reported by **205** distros on [repology.org](https://repology.org/project/avro). **19** are ✅ on the latest upstream release, **181** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:34:36Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:29:34Z._
