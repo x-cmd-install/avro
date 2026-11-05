@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (-1/10) — no releases found
+- **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
 ## Source
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 269 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
+- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 270 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 1 | 34 | 0 | 0 | 1 |
-| last60d | 2026-09-05 | 0 | 3 | 58 | 0 | 0 | 3 |
-| 90d | 2026-08-06 | 1 | 8 | 84 | 0 | 0 | 10 |
-| last180d | 2026-05-08 | 1 | 108 | 117 | 0 | 0 | 103 |
-| 360d | 2025-11-09 | 1 | 286 | 134 | 0 | 0 | 279 |
-| last720d | 2024-11-14 | 1 | 521 | 150 | 0 | 0 | 542 |
+| 30d | 2026-10-06 | 0 | 1 | 34 | 0 | 0 | 1 |
+| last60d | 2026-09-06 | 0 | 3 | 58 | 0 | 0 | 3 |
+| 90d | 2026-08-07 | 1 | 8 | 80 | 0 | 0 | 10 |
+| last180d | 2026-05-09 | 1 | 108 | 118 | 0 | 0 | 103 |
+| 360d | 2025-11-10 | 1 | 286 | 135 | 0 | 0 | 279 |
+| last720d | 2024-11-15 | 1 | 520 | 151 | 0 | 0 | 542 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:07:10Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:38:11Z._
