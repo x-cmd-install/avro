@@ -47,37 +47,37 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,313 · **Forks**: 1,786 · **Open issues**: 0 · **Contributors**: 433
+- **Stars**: 3,313 · **Forks**: 1,785 · **Open issues**: 0 · **Contributors**: 433
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 271 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
+- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 270 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 1 | 34 | 0 | 0 | 1 |
-| last60d | 2026-09-07 | 0 | 3 | 58 | 0 | 0 | 3 |
-| 90d | 2026-08-08 | 1 | 8 | 81 | 0 | 0 | 10 |
-| last180d | 2026-05-10 | 1 | 101 | 117 | 0 | 0 | 103 |
-| 360d | 2025-11-11 | 1 | 286 | 136 | 0 | 0 | 279 |
-| last720d | 2024-11-16 | 1 | 519 | 152 | 0 | 0 | 542 |
+| 30d | 2026-10-08 | 0 | 1 | 32 | 0 | 0 | 1 |
+| last60d | 2026-09-08 | 0 | 3 | 58 | 0 | 0 | 3 |
+| 90d | 2026-08-09 | 1 | 8 | 80 | 0 | 0 | 10 |
+| last180d | 2026-05-11 | 1 | 100 | 117 | 0 | 0 | 103 |
+| 360d | 2025-11-12 | 1 | 286 | 136 | 0 | 0 | 279 |
+| last720d | 2024-11-17 | 1 | 518 | 152 | 0 | 0 | 542 |
 
 ## Distribution status
 
-Reported by **205** distros on [repology.org](https://repology.org/project/avro). **19** are ✅ on the latest upstream release, **181** are ⚠️ on an older version.
+Reported by **209** distros on [repology.org](https://repology.org/project/avro). **20** are ✅ on the latest upstream release, **184** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian unstable | `1.12.2` | ✅ latest |
 | Debian 14 | `1.12.1` | ⚠️ outdated |
 | Debian 13 | `1.12.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
 | Homebrew | `1.12.2` | ✅ latest |
 | Fedora rawhide | `1.12.0` | ⚠️ outdated |
-| Nix unstable | `1.12.1` | ⚠️ outdated |
+| Nix unstable | `1.12.2` | ✅ latest |
 | Alpine edge | `1.12.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:28:42Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:53:56Z._

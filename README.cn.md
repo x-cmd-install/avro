@@ -47,37 +47,37 @@ x install avro
 
 ## 流行度
 
-- **Star**: 3,313 · **Fork**: 1,786 · **开放 issue**: 0 · **贡献者**: 433
+- **Star**: 3,313 · **Fork**: 1,785 · **开放 issue**: 0 · **贡献者**: 433
 
 ## 累计统计
 
-- **发布数**: 23 · **已合并 PR**: 2915 · **开放 PR**: 271 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 5104
+- **发布数**: 23 · **已合并 PR**: 2915 · **开放 PR**: 270 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 5104
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 1 | 34 | 0 | 0 | 1 |
-| last60d | 2026-09-07 | 0 | 3 | 58 | 0 | 0 | 3 |
-| 90d | 2026-08-08 | 1 | 8 | 81 | 0 | 0 | 10 |
-| last180d | 2026-05-10 | 1 | 101 | 117 | 0 | 0 | 103 |
-| 360d | 2025-11-11 | 1 | 286 | 136 | 0 | 0 | 279 |
-| last720d | 2024-11-16 | 1 | 519 | 152 | 0 | 0 | 542 |
+| 30d | 2026-10-08 | 0 | 1 | 32 | 0 | 0 | 1 |
+| last60d | 2026-09-08 | 0 | 3 | 58 | 0 | 0 | 3 |
+| 90d | 2026-08-09 | 1 | 8 | 80 | 0 | 0 | 10 |
+| last180d | 2026-05-11 | 1 | 100 | 117 | 0 | 0 | 103 |
+| 360d | 2025-11-12 | 1 | 286 | 136 | 0 | 0 | 279 |
+| last720d | 2024-11-17 | 1 | 518 | 152 | 0 | 0 | 542 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/avro) 上共有 **205** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**181** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/avro) 上共有 **209** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**184** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian unstable | `1.12.2` | ✅ latest |
 | Debian 14 | `1.12.1` | ⚠️ outdated |
 | Debian 13 | `1.12.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
 | Homebrew | `1.12.2` | ✅ latest |
 | Fedora rawhide | `1.12.0` | ⚠️ outdated |
-| Nix unstable | `1.12.1` | ⚠️ outdated |
+| Nix unstable | `1.12.2` | ✅ latest |
 | Alpine edge | `1.12.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
 
@@ -90,4 +90,4 @@ avro 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T07:28:43Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T06:53:58Z._
