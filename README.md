@@ -14,7 +14,7 @@ x install avro
 
 ## Code insight
 
-Total: **227,699** lines of code across **1178** files in the top 5 languages.
+Total: **227,499** lines of code across **1178** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.12.2` (2026-08-23)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-11-09
 
 ## Popularity
 
-- **Stars**: 3,313 · **Forks**: 1,784 · **Open issues**: 0 · **Contributors**: 433
+- **Stars**: 3,313 · **Forks**: 1,787 · **Open issues**: 0 · **Contributors**: 434
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2915 · **Open PRs**: 270 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5104
+- **Releases**: 23 · **Merged PRs**: 2957 · **Open PRs**: 228 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5146
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 1 | 30 | 0 | 0 | 1 |
-| last60d | 2026-09-09 | 0 | 3 | 58 | 0 | 0 | 3 |
-| 90d | 2026-08-10 | 1 | 8 | 79 | 0 | 0 | 10 |
-| last180d | 2026-05-12 | 1 | 100 | 116 | 0 | 0 | 103 |
-| 360d | 2025-11-13 | 1 | 286 | 134 | 0 | 0 | 279 |
-| last720d | 2024-11-18 | 1 | 518 | 152 | 0 | 0 | 542 |
+| 30d | 2026-10-10 | 0 | 22 | 11 | 0 | 0 | 42 |
+| last60d | 2026-09-10 | 0 | 41 | 20 | 0 | 0 | 45 |
+| 90d | 2026-08-11 | 1 | 49 | 38 | 0 | 0 | 52 |
+| last180d | 2026-05-13 | 1 | 142 | 74 | 0 | 0 | 140 |
+| 360d | 2025-11-14 | 1 | 325 | 92 | 0 | 0 | 310 |
+| last720d | 2024-11-19 | 1 | 560 | 110 | 0 | 0 | 583 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:42:17Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:15:45Z._
