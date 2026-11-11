@@ -14,11 +14,11 @@ x install avro
 
 ## Code insight
 
-Total: **227,520** lines of code across **1179** files in the top 5 languages.
+Total: **227,554** lines of code across **1179** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 98,399 | 35,825 | 19,317 | 783 |
+| Java | 98,433 | 35,837 | 19,324 | 783 |
 | CSharp | 27,974 | 10,645 | 4,214 | 229 |
 | C | 24,162 | 3,110 | 4,423 | 71 |
 | Cpp | 14,984 | 1,408 | 2,339 | 52 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.12.2` (2026-08-23)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-10
 
 ## Popularity
 
-- **Stars**: 3,313 · **Forks**: 1,787 · **Open issues**: 0 · **Contributors**: 434
+- **Stars**: 3,313 · **Forks**: 1,789 · **Open issues**: 0 · **Contributors**: 434
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2958 · **Open PRs**: 227 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5147
+- **Releases**: 23 · **Merged PRs**: 2961 · **Open PRs**: 223 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5150
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 21 | 10 | 0 | 0 | 43 |
-| last60d | 2026-09-11 | 0 | 42 | 19 | 0 | 0 | 46 |
-| 90d | 2026-08-12 | 1 | 50 | 37 | 0 | 0 | 53 |
-| last180d | 2026-05-14 | 1 | 142 | 72 | 0 | 0 | 141 |
-| 360d | 2025-11-15 | 1 | 326 | 91 | 0 | 0 | 311 |
-| last720d | 2024-11-20 | 1 | 560 | 109 | 0 | 0 | 584 |
+| 30d | 2026-10-12 | 0 | 23 | 8 | 0 | 0 | 46 |
+| last60d | 2026-09-12 | 0 | 45 | 16 | 0 | 0 | 49 |
+| 90d | 2026-08-13 | 1 | 53 | 34 | 0 | 0 | 56 |
+| last180d | 2026-05-15 | 1 | 143 | 69 | 0 | 0 | 144 |
+| 360d | 2025-11-16 | 1 | 322 | 87 | 0 | 0 | 314 |
+| last720d | 2024-11-21 | 1 | 563 | 105 | 0 | 0 | 586 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:09:45Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:39:33Z._
