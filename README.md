@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,314 · **Forks**: 1,790 · **Open issues**: 0 · **Contributors**: 434
+- **Stars**: 3,313 · **Forks**: 1,790 · **Open issues**: 0 · **Contributors**: 434
 
 ## Totals (cumulative)
 
@@ -57,20 +57,20 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 22 | 7 | 0 | 0 | 0 |
-| last60d | 2026-09-13 | 0 | 42 | 15 | 0 | 0 | 0 |
-| 90d | 2026-08-14 | 1 | 55 | 32 | 0 | 0 | 0 |
-| last180d | 2026-05-16 | 1 | 145 | 67 | 0 | 0 | 0 |
-| 360d | 2025-11-17 | 1 | 321 | 85 | 0 | 0 | 0 |
-| last720d | 2024-11-22 | 1 | 565 | 103 | 0 | 0 | 588 |
+| 30d | 2026-10-14 | 0 | 22 | 5 | 0 | 0 | 48 |
+| last60d | 2026-09-14 | 0 | 42 | 15 | 0 | 0 | 51 |
+| 90d | 2026-08-15 | 1 | 55 | 32 | 0 | 0 | 58 |
+| last180d | 2026-05-17 | 1 | 140 | 67 | 0 | 0 | 146 |
+| 360d | 2025-11-18 | 1 | 321 | 85 | 0 | 0 | 316 |
+| last720d | 2024-11-23 | 1 | 565 | 103 | 0 | 0 | 587 |
 
 ## Distribution status
 
-Reported by **209** distros on [repology.org](https://repology.org/project/avro). **21** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
+Reported by **209** distros on [repology.org](https://repology.org/project/avro). **22** are ✅ on the latest upstream release, **182** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian unstable | `1.12.2` | ✅ latest |
 | Debian 14 | `1.12.1` | ⚠️ outdated |
 | Debian 13 | `1.12.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:24:39Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:40:27Z._
