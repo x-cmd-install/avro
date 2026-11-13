@@ -1,28 +1,3 @@
-- repo: nix_stable_25_11
-  srcname: avro-c
-  visiblename: avro-c
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: C library which implements parts of the Avro Specification
-  maintainers:
-    - lblasc@znode.net
-  licenses:
-    - Apache-2.0
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.1
-  origversion: 1.12.1+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: avro-java
@@ -78,6 +53,20 @@
     - llnu@protonmail.ch
   licenses:
     - Apache-2.0
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.1
+  origversion: 1.12.1+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: avro
@@ -91,20 +80,6 @@
     - llnu@protonmail.ch
   licenses:
     - Apache-2.0
-- repo: kali_rolling
-  subrepo: main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.1
-  origversion: 1.12.1+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: avro
@@ -151,6 +126,58 @@
   visiblename: libavrocpp
   version: 1.12.1
   origversion: 1.12.1-r0
+  status: outdated
+  summary: Avro, a data serialization system (C++ library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: avro
+  binname: avro
+  visiblename: avro
+  version: 1.12.1
+  origversion: 1.12.1-r1
+  status: outdated
+  summary: Avro, a data serialization system
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: avro
+  binname: avro-dev
+  visiblename: avro-dev
+  version: 1.12.1
+  origversion: 1.12.1-r1
+  status: outdated
+  summary: Avro, a data serialization system (development files)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: avro
+  binname: libavro
+  visiblename: libavro
+  version: 1.12.1
+  origversion: 1.12.1-r1
+  status: outdated
+  summary: Avro, a data serialization system (C library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: avro
+  binname: libavrocpp
+  visiblename: libavrocpp
+  version: 1.12.1
+  origversion: 1.12.1-r1
   status: outdated
   summary: Avro, a data serialization system (C++ library)
   maintainers:
@@ -181,58 +208,6 @@
   summary: Precompiled Python bytecode for py3-avro
   maintainers:
     - gena01@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: avro
-  binname: avro
-  visiblename: avro
-  version: 1.12.1
-  origversion: 1.12.1-r1
-  status: outdated
-  summary: Avro, a data serialization system
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: avro
-  binname: avro-dev
-  visiblename: avro-dev
-  version: 1.12.1
-  origversion: 1.12.1-r1
-  status: outdated
-  summary: Avro, a data serialization system (development files)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: avro
-  binname: libavro
-  visiblename: libavro
-  version: 1.12.1
-  origversion: 1.12.1-r1
-  status: outdated
-  summary: Avro, a data serialization system (C library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: avro
-  binname: libavrocpp
-  visiblename: libavrocpp
-  version: 1.12.1
-  origversion: 1.12.1-r1
-  status: outdated
-  summary: Avro, a data serialization system (C++ library)
-  maintainers:
-    - llnu@protonmail.ch
   licenses:
     - Apache-2.0
 - repo: alt_p11
@@ -295,20 +270,6 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.1
-  origversion: 1.12.1+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
   srcname: avro-java
   binnames:
     - libavro-java
@@ -323,6 +284,32 @@
     - ebourg@apache.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.1
+  origversion: 1.12.1+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - misc
+- repo: freebsd
+  srcname: devel/rubygem-avro
+  binname: rubygem-avro
+  visiblename: devel/rubygem-avro
+  version: 1.12.2
+  origversion: null
+  status: newest
+  summary: Ruby library for Apache Avro
+  maintainers:
+    - sunpoet@freebsd.org
+  categories:
+    - devel
 - repo: freebsd
   srcname: devel/avro-cpp
   binname: avro-cpp
@@ -371,18 +358,6 @@
     - sunpoet@freebsd.org
   categories:
     - devel
-- repo: freebsd
-  srcname: devel/rubygem-avro
-  binname: rubygem-avro
-  visiblename: devel/rubygem-avro
-  version: 1.12.2
-  origversion: null
-  status: newest
-  summary: Ruby library for Apache Avro
-  maintainers:
-    - sunpoet@freebsd.org
-  categories:
-    - devel
 - repo: gentoo_ovl_guru
   srcname: dev-python/avro
   visiblename: dev-python/avro
@@ -425,6 +400,20 @@
   origversion: null
   status: newest
   summary: Avro command-line tools and utilities
+- repo: kali_rolling
+  subrepo: main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.1
+  origversion: 1.12.1+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: dev-python/avro
   visiblename: dev-python/avro
@@ -467,6 +456,19 @@
   categories:
     - python
 - repo: nix_stable_25_11
+  srcname: python313Packages.avro
+  visiblename: python3.13-avro
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_25_11
   srcname: python312Packages.avro
   visiblename: python3.12-avro
   version: 1.12.1
@@ -480,32 +482,6 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_11
-  srcname: python313Packages.avro
-  visiblename: python3.13-avro
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python313Packages
-- repo: nix_stable_26_05
-  srcname: python313Packages.avro
-  visiblename: avro
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python313Packages
-- repo: nix_stable_26_05
   srcname: avro-c
   visiblename: avro-c
   version: 1.12.1
@@ -529,8 +505,32 @@
     - Apache-2.0
   categories:
     - python314Packages
+- repo: nix_stable_26_05
+  srcname: avro-c
+  visiblename: avro-c
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: C library which implements parts of the Avro Specification
+  maintainers:
+    - lblasc@znode.net
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: python313Packages.avro
+  visiblename: avro
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
 - repo: nix_unstable
-  srcname: python314Packages.avro
+  srcname: python313Packages.avro
   visiblename: avro
   version: 1.12.2
   origversion: null
@@ -541,7 +541,19 @@
   licenses:
     - Apache-2.0
   categories:
-    - python314Packages
+    - python313Packages
+- repo: nix_unstable
+  srcname: avro-c
+  visiblename: avro-c
+  version: 1.12.2
+  origversion: null
+  status: newest
+  summary: C library which implements parts of the Avro Specification
+  maintainers:
+    - lblasc@znode.net
+    - smancill@smancill.dev
+  licenses:
+    - Apache-2.0
 - repo: nix_unstable
   srcname: avro-cpp
   visiblename: avro-c++
@@ -550,11 +562,11 @@
   status: newest
   summary: C++ library which implements parts of the Avro Specification
   maintainers:
-    - fallback-mnt-nix@repology
+    - smancill@smancill.dev
   licenses:
     - Apache-2.0
 - repo: nix_unstable
-  srcname: python313Packages.avro
+  srcname: python314Packages.avro
   visiblename: avro
   version: 1.12.2
   origversion: null
@@ -565,18 +577,7 @@
   licenses:
     - Apache-2.0
   categories:
-    - python313Packages
-- repo: nix_unstable
-  srcname: avro-c
-  visiblename: avro-c
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: C library which implements parts of the Avro Specification
-  maintainers:
-    - lblasc@znode.net
-  licenses:
-    - Apache-2.0
+    - python314Packages
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: python-avro
@@ -744,22 +745,6 @@
   summary: Data serialization system
   categories:
     - Libs
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: avro-c
-  binnames:
-    - avro-bin
-    - libavro-dev
-    - libavro23
-  visiblename: avro-c
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-  categories:
-    - utils
-  vulnerable: true
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: avro-c
@@ -777,201 +762,22 @@
   categories:
     - misc
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: avro
-  binname: avro
-  visiblename: avro
-  version: 1.11.1
-  origversion: 1.11.1-r5
+- repo: kali_rolling
+  subrepo: main
+  srcname: avro-c
+  binnames:
+    - libavro-dev
+    - libavro24
+    - avro-bin
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
   status: outdated
-  summary: Avro, a data serialization system
   maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: avro
-  binname: avro-dev
-  visiblename: avro-dev
-  version: 1.11.1
-  origversion: 1.11.1-r5
-  status: outdated
-  summary: Avro, a data serialization system (development files)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: avro
-  binname: libavro
-  visiblename: libavro
-  version: 1.11.1
-  origversion: 1.11.1-r5
-  status: outdated
-  summary: Avro, a data serialization system (C library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: avro
-  binname: libavrocpp
-  visiblename: libavrocpp
-  version: 1.11.1
-  origversion: 1.11.1-r5
-  status: outdated
-  summary: Avro, a data serialization system (C++ library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: avro
-  binname: avro
-  visiblename: avro
-  version: 1.11.3
-  origversion: 1.11.3-r0
-  status: outdated
-  summary: Avro, a data serialization system
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: avro
-  binname: avro-dev
-  visiblename: avro-dev
-  version: 1.11.3
-  origversion: 1.11.3-r0
-  status: outdated
-  summary: Avro, a data serialization system (development files)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: avro
-  binname: libavro
-  visiblename: libavro
-  version: 1.11.3
-  origversion: 1.11.3-r0
-  status: outdated
-  summary: Avro, a data serialization system (C library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: avro
-  binname: libavrocpp
-  visiblename: libavrocpp
-  version: 1.11.3
-  origversion: 1.11.3-r0
-  status: outdated
-  summary: Avro, a data serialization system (C++ library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: avro
-  binname: avro
-  visiblename: avro
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: avro
-  binname: avro-dev
-  visiblename: avro-dev
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system (development files)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: avro
-  binname: libavro
-  visiblename: libavro
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system (C library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: avro
-  binname: libavrocpp
-  visiblename: libavrocpp
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system (C++ library)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: avro
-  binname: avro
-  visiblename: avro
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: avro
-  binname: avro-dev
-  visiblename: avro-dev
-  version: 1.11.3
-  origversion: 1.11.3-r1
-  status: outdated
-  summary: Avro, a data serialization system (development files)
-  maintainers:
-    - llnu@protonmail.ch
-  licenses:
-    - Apache-2.0
+    - edmonds@debian.org
+    - harry@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: kali_rolling
   subrepo: main
@@ -989,6 +795,416 @@
     - ebourg@apache.org
   categories:
     - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: avro-java
+  binnames:
+    - libavro-java
+    - libavro-compiler-java
+    - libavro-maven-plugin-java
+  visiblename: avro-java
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: avro-java
+  binnames:
+    - libavro-java
+    - libavro-compiler-java
+    - libavro-maven-plugin-java
+  visiblename: avro-java
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: avro-c
+  binnames:
+    - avro-bin
+    - libavro-dev
+    - libavro23
+  visiblename: avro-c
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: python-avro
+  binnames:
+    - python-avro
+    - python3-avro
+  visiblename: python-avro
+  version: 1.8.2
+  origversion: 1.8.2+dfsg-2
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - afif@debian.org
+  categories:
+    - python
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: avro-java
+  binnames:
+    - libavro-compiler-java
+    - libavro-java
+    - libavro-maven-plugin-java
+  visiblename: avro-java
+  version: 1.7.7
+  origversion: 1.7.7-3
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+  categories:
+    - java
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: avro-c
+  binnames:
+    - avro-bin
+    - libavro-dev
+    - libavro23
+  visiblename: avro-c
+  version: 1.9.0
+  origversion: 1.9.0-1
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: avro-java
+  binnames:
+    - libavro-compiler-java
+    - libavro-java
+    - libavro-maven-plugin-java
+  visiblename: avro-java
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+  categories:
+    - java
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.10.1
+  origversion: 1.10.1+dfsg-1
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - afif@debian.org
+  categories:
+    - python
+  vulnerable: true
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.0
+  origversion: 1.12.0+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - python
+  vulnerable: true
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: avro-c
+  binnames:
+    - avro-bin
+    - libavro-dev
+    - libavro24
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+    - harry@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: raspbian_testing
+  subrepo: main
+  srcname: avro-c
+  binnames:
+    - libavro-dev
+    - libavro24
+    - avro-bin
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+    - harry@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: avro-java
+  binnames:
+    - libavro-compiler-java
+    - libavro-java
+    - libavro-maven-plugin-java
+  visiblename: avro-java
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+  categories:
+    - java
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: avro
+  binname: avro
+  visiblename: avro
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: Avro, a data serialization system
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: avro
+  binname: avro-dev
+  visiblename: avro-dev
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: Avro, a data serialization system (development files)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: avro
+  binname: libavro
+  visiblename: libavro
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: Avro, a data serialization system (C library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: avro
+  binname: libavrocpp
+  visiblename: libavrocpp
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: Avro, a data serialization system (C++ library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: avro
+  binname: avro
+  visiblename: avro
+  version: 1.11.3
+  origversion: 1.11.3-r0
+  status: outdated
+  summary: Avro, a data serialization system
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: avro
+  binname: avro-dev
+  visiblename: avro-dev
+  version: 1.11.3
+  origversion: 1.11.3-r0
+  status: outdated
+  summary: Avro, a data serialization system (development files)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: avro
+  binname: libavro
+  visiblename: libavro
+  version: 1.11.3
+  origversion: 1.11.3-r0
+  status: outdated
+  summary: Avro, a data serialization system (C library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: avro
+  binname: libavrocpp
+  visiblename: libavrocpp
+  version: 1.11.3
+  origversion: 1.11.3-r0
+  status: outdated
+  summary: Avro, a data serialization system (C++ library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: avro
+  binname: avro
+  visiblename: avro
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: avro
+  binname: avro-dev
+  visiblename: avro-dev
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system (development files)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: avro
+  binname: libavro
+  visiblename: libavro
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system (C library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: avro
+  binname: libavrocpp
+  visiblename: libavrocpp
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system (C++ library)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: avro
+  binname: avro
+  visiblename: avro
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: avro-c
+  binnames:
+    - libavro-dev
+    - libavro24
+    - avro-bin
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+    - harry@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: avro
+  binname: avro-dev
+  visiblename: avro-dev
+  version: 1.11.3
+  origversion: 1.11.3-r1
+  status: outdated
+  summary: Avro, a data serialization system (development files)
+  maintainers:
+    - llnu@protonmail.ch
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: alpine_3_21
   subrepo: community
@@ -1116,6 +1332,21 @@
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.10.1
+  origversion: 1.10.1+dfsg-1
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - afif@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: avro-c
   binnames:
     - libavro-dev
@@ -1144,21 +1375,6 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.10.1
-  origversion: 1.10.1+dfsg-1
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - afif@debian.org
   categories:
     - misc
   vulnerable: true
@@ -1207,23 +1423,6 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
   categories:
     - misc
   vulnerable: true
@@ -1355,6 +1554,21 @@
   vulnerable: true
 - repo: deepin_25
   subrepo: community
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.0
+  origversion: 1.12.0+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - python
+  vulnerable: true
+- repo: deepin_25
+  subrepo: community
   srcname: avro-c
   binnames:
     - libavro-dev
@@ -1372,21 +1586,6 @@
   vulnerable: true
 - repo: deepin_25
   subrepo: community
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - python
-  vulnerable: true
-- repo: deepin_25
-  subrepo: community
   srcname: avro-java
   binnames:
     - libavro-java
@@ -1401,21 +1600,6 @@
     - ebourg@apache.org
   categories:
     - java
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.10.1
-  origversion: 1.10.1+dfsg-1
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - afif@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -1450,6 +1634,21 @@
   categories:
     - misc
   vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.10.1
+  origversion: 1.10.1+dfsg-1
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - afif@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: fedora_39
   subrepo: release
   srcname: php-wikimedia-avro
@@ -1465,18 +1664,14 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: python-avro
-  visiblename: python-avro
-  version: 1.11.3
-  origversion: 1.11.3-150400.10.4.1
+- repo: spack
+  srcname: py-avro
+  visiblename: py-avro
+  version: 1.12.0
+  origversion: null
   status: outdated
-  summary: A serialization and RPC framework for Python
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Languages/Python
+  maintainers:
+    - fallback-mnt-spack@repology
   vulnerable: true
 - repo: fedora_40
   subrepo: updates
@@ -1509,21 +1704,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_41
-  subrepo: updates
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0-1.fc41
-  status: outdated
-  summary: Python bindings for Apache Avro data serialization system
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_41
   subrepo: release
   srcname: php-wikimedia-avro
   binnames:
@@ -1535,6 +1715,21 @@
   summary: A library for using Avro with PHP
   licenses:
     - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_41
+  subrepo: updates
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.0
+  origversion: 1.12.0-1.fc41
+  status: outdated
+  summary: Python bindings for Apache Avro data serialization system
+  licenses:
+    - Apache-2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -1598,18 +1793,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_25_05
-  srcname: avro-tools
-  visiblename: avro-tools
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  summary: Avro command-line tools and utilities
-  maintainers:
-    - me@momee.mt
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: gentoo
   srcname: dev-libs/avro-c
   visiblename: dev-libs/avro-c
@@ -1651,23 +1834,6 @@
     - Apache-2.0
   categories:
     - dev-python
-  vulnerable: true
-- repo: kali_rolling
-  subrepo: main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-libs/avro-c
@@ -1799,20 +1965,6 @@
     - spdx:Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_05
-  srcname: python312Packages.avro
-  visiblename: python3.12-avro
-  version: 1.11.3
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-  vulnerable: true
-- repo: nix_stable_24_05
   srcname: python311Packages.avro
   visiblename: python3.11-avro
   version: 1.11.3
@@ -1825,6 +1977,20 @@
     - Apache-2.0
   categories:
     - python311Packages
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: python312Packages.avro
+  visiblename: python3.12-avro
+  version: 1.11.3
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: avro-c
@@ -1863,6 +2029,34 @@
     - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_11
+  srcname: python312Packages.avro
+  visiblename: python3.12-avro
+  version: 1.12.0
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: python311Packages.avro
+  visiblename: python3.11-avro
+  version: 1.12.0
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python311Packages
+  vulnerable: true
+- repo: nix_stable_24_11
   srcname: avro-c
   visiblename: avro-c
   version: 1.12.0
@@ -1887,34 +2081,6 @@
     - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_11
-  srcname: python311Packages.avro
-  visiblename: python3.11-avro
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python311Packages
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: python312Packages.avro
-  visiblename: python3.12-avro
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-  vulnerable: true
-- repo: nix_stable_24_11
   srcname: avro-cpp
   visiblename: avro-c++
   version: 1.11.3
@@ -1925,34 +2091,6 @@
     - rasen.dubi@gmail.com
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: python313Packages.avro
-  visiblename: python3.13-avro
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python313Packages
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: python312Packages.avro
-  visiblename: python3.12-avro
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  summary: Python serialization and RPC framework
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: avro-c
@@ -1977,6 +2115,46 @@
     - rasen.dubi@gmail.com
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: avro-tools
+  visiblename: avro-tools
+  version: 1.12.0
+  origversion: null
+  status: outdated
+  summary: Avro command-line tools and utilities
+  maintainers:
+    - me@momee.mt
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: python312Packages.avro
+  visiblename: python3.12-avro
+  version: 1.12.0
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: python313Packages.avro
+  visiblename: python3.13-avro
+  version: 1.12.0
+  origversion: null
+  status: outdated
+  summary: Python serialization and RPC framework
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
   vulnerable: true
 - repo: nix_stable_25_11
   srcname: avro-cpp
@@ -2025,22 +2203,6 @@
     - me@momee.mt
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: python-avro
-  binnames:
-    - python-avro
-    - python3-avro
-  visiblename: python-avro
-  version: 1.8.2
-  origversion: 1.8.2+dfsg-2
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - afif@debian.org
-  categories:
-    - python
   vulnerable: true
 - repo: nix_unstable
   srcname: avro-tools
@@ -2067,13 +2229,13 @@
   categories:
     - Development/Languages/Python
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
   srcname: python-avro
   visiblename: python-avro
-  version: 1.11.0
-  origversion: 1.11.0-150100.3.5.2
-  status: legacy
+  version: 1.11.3
+  origversion: 1.11.3-150400.10.4.1
+  status: outdated
   summary: A serialization and RPC framework for Python
   licenses:
     - Apache-2.0
@@ -2093,20 +2255,18 @@
   categories:
     - Development/Languages/Python
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: python-avro
-  binnames:
-    - python3-avro
   visiblename: python-avro
-  version: 1.10.1
-  origversion: 1.10.1+dfsg-1
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - afif@debian.org
+  version: 1.11.0
+  origversion: 1.11.0-150100.3.5.2
+  status: legacy
+  summary: A serialization and RPC framework for Python
+  licenses:
+    - Apache-2.0
   categories:
-    - misc
+    - Development/Languages/Python
   vulnerable: true
 - repo: pardus_21
   subrepo: main
@@ -2141,156 +2301,8 @@
   categories:
     - misc
   vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: avro-java
-  binnames:
-    - libavro-java
-    - libavro-compiler-java
-    - libavro-maven-plugin-java
-  visiblename: avro-java
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: avro-java
-  binnames:
-    - libavro-java
-    - libavro-compiler-java
-    - libavro-maven-plugin-java
-  visiblename: avro-java
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: avro-java
-  binnames:
-    - libavro-compiler-java
-    - libavro-java
-    - libavro-maven-plugin-java
-  visiblename: avro-java
-  version: 1.7.7
-  origversion: 1.7.7-3
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-  categories:
-    - java
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: avro-c
-  binnames:
-    - avro-bin
-    - libavro-dev
-    - libavro23
-  visiblename: avro-c
-  version: 1.9.0
-  origversion: 1.9.0-1
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: avro-java
-  binnames:
-    - libavro-compiler-java
-    - libavro-java
-    - libavro-maven-plugin-java
-  visiblename: avro-java
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-  categories:
-    - java
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: pardus_21
+  subrepo: main
   srcname: python-avro
   binnames:
     - python3-avro
@@ -2302,10 +2314,10 @@
     - debian-med-packaging@lists.alioth.debian.org
     - afif@debian.org
   categories:
-    - python
+    - misc
   vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: python-avro
   binnames:
     - python3-avro
@@ -2317,15 +2329,15 @@
     - team+python@tracker.debian.org
     - afif@debian.org
   categories:
-    - python
+    - misc
   vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: avro-c
   binnames:
-    - avro-bin
     - libavro-dev
     - libavro24
+    - avro-bin
   visiblename: avro-c
   version: 1.12.0
   origversion: 1.12.0-3
@@ -2334,37 +2346,37 @@
     - edmonds@debian.org
     - harry@debian.org
   categories:
-    - utils
+    - misc
   vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: avro-java
-  binnames:
-    - libavro-compiler-java
-    - libavro-java
-    - libavro-maven-plugin-java
-  visiblename: avro-java
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-  categories:
-    - java
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: python-avro
   binnames:
     - python3-avro
   visiblename: python-avro
-  version: 1.11.1
-  origversion: 1.11.1+dfsg-2
+  version: 1.12.0
+  origversion: 1.12.0+dfsg-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
     - afif@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: avro-c
+  binnames:
+    - libavro-dev
+    - libavro24
+    - avro-bin
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+    - harry@debian.org
   categories:
     - misc
   vulnerable: true
@@ -2386,6 +2398,21 @@
   vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.11.1
+  origversion: 1.11.1+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: avro-java
   binnames:
     - libavro-java
@@ -2398,6 +2425,23 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: avro-c
+  binnames:
+    - libavro-dev
+    - libavro24
+    - avro-bin
+  visiblename: avro-c
+  version: 1.12.0
+  origversion: 1.12.0-3
+  status: outdated
+  maintainers:
+    - edmonds@debian.org
+    - harry@debian.org
   categories:
     - misc
   vulnerable: true
@@ -2418,23 +2462,6 @@
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
   srcname: avro-java
   binnames:
     - libavro-java
@@ -2447,23 +2474,6 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: avro-c
-  binnames:
-    - libavro-dev
-    - libavro24
-    - avro-bin
-  visiblename: avro-c
-  version: 1.12.0
-  origversion: 1.12.0-3
-  status: outdated
-  maintainers:
-    - edmonds@debian.org
-    - harry@debian.org
   categories:
     - misc
   vulnerable: true
@@ -2509,15 +2519,6 @@
     - ASL 2.0
   categories:
     - Development/Java
-  vulnerable: true
-- repo: spack
-  srcname: py-avro
-  visiblename: py-avro
-  version: 1.12.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
   vulnerable: true
 - repo: ubuntu_16_04
   subrepo: xenial/universe
@@ -2651,6 +2652,21 @@
   vulnerable: true
 - repo: ubuntu_22_04
   subrepo: jammy/universe
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.11.0
+  origversion: 1.11.0+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: avro-c
   binnames:
     - libavro-dev
@@ -2682,14 +2698,14 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: python-avro
   binnames:
     - python3-avro
   visiblename: python-avro
-  version: 1.11.0
-  origversion: 1.11.0+dfsg-1
+  version: 1.11.1
+  origversion: 1.11.1+dfsg-2
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -2715,21 +2731,6 @@
   vulnerable: true
 - repo: ubuntu_24_04
   subrepo: noble/universe
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.11.1
-  origversion: 1.11.1+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/universe
   srcname: avro-java
   binnames:
     - libavro-java
@@ -2742,6 +2743,21 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.0
+  origversion: 1.12.0+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
   categories:
     - universe/misc
   vulnerable: true
@@ -2764,21 +2780,6 @@
   vulnerable: true
 - repo: ubuntu_25_04
   subrepo: plucky/universe
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
   srcname: avro-java
   binnames:
     - libavro-java
@@ -2796,6 +2797,21 @@
   vulnerable: true
 - repo: ubuntu_25_10
   subrepo: questing/universe
+  srcname: python-avro
+  binnames:
+    - python3-avro
+  visiblename: python-avro
+  version: 1.12.0
+  origversion: 1.12.0+dfsg-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - afif@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: avro-c
   binnames:
     - libavro-dev
@@ -2808,21 +2824,6 @@
   maintainers:
     - edmonds@debian.org
     - harry@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: python-avro
-  binnames:
-    - python3-avro
-  visiblename: python-avro
-  version: 1.12.0
-  origversion: 1.12.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - afif@debian.org
   categories:
     - universe/misc
   vulnerable: true
