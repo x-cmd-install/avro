@@ -30,8 +30,8 @@ x install avro
 
 评分最低的几项:
 
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
 
 ## 源代码
@@ -51,18 +51,35 @@ x install avro
 
 ## 累计统计
 
-- **发布数**: 23 · **已合并 PR**: 2971 · **开放 PR**: 227 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 5160
+- **发布数**: 23 · **已合并 PR**: 2971 · **开放 PR**: 228 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 5160
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 26 | 9 | 0 | 0 | 56 |
-| last60d | 2026-09-18 | 0 | 49 | 21 | 0 | 0 | 58 |
-| 90d | 2026-08-19 | 1 | 62 | 36 | 0 | 0 | 62 |
-| last180d | 2026-05-21 | 1 | 147 | 73 | 0 | 0 | 148 |
-| 360d | 2025-11-22 | 1 | 321 | 90 | 0 | 0 | 318 |
-| last720d | 2024-11-27 | 1 | 572 | 109 | 0 | 0 | 595 |
+| 30d | 2026-10-20 | 0 | 26 | 10 | 0 | 0 | 56 |
+| last60d | 2026-09-20 | 0 | 45 | 22 | 0 | 0 | 58 |
+| 90d | 2026-08-21 | 1 | 62 | 37 | 0 | 0 | 62 |
+| last180d | 2026-05-23 | 1 | 146 | 72 | 0 | 0 | 148 |
+| 360d | 2025-11-24 | 1 | 317 | 91 | 0 | 0 | 318 |
+| last720d | 2024-11-29 | 1 | 572 | 109 | 0 | 0 | 595 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/avro) 上共有 **210** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**180** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.12.2` | ✅ latest |
+| Debian 14 | `1.12.2` | ✅ latest |
+| Debian 13 | `1.12.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
+| Homebrew | `1.12.2` | ✅ latest |
+| Fedora rawhide | `1.12.0` | ⚠️ outdated |
+| Nix unstable | `1.12.2` | ✅ latest |
+| Alpine edge | `1.12.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -73,4 +90,4 @@ avro 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:33:01Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:09:06Z._
