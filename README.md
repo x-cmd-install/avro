@@ -14,12 +14,12 @@ x install avro
 
 ## Code insight
 
-Total: **227,024** lines of code across **1179** files in the top 5 languages.
+Total: **227,025** lines of code across **1179** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Java | 98,433 | 35,837 | 19,324 | 783 |
-| CSharp | 27,974 | 10,645 | 4,214 | 229 |
+| CSharp | 27,972 | 10,645 | 4,212 | 229 |
 | C | 24,162 | 3,110 | 4,423 | 71 |
 | Cpp | 14,984 | 1,408 | 2,339 | 52 |
 | Python | 10,091 | 1,391 | 1,758 | 44 |
@@ -43,34 +43,34 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.12.2` (2026-08-23)
-- **Last commit**: 2026-11-15
+- **Last commit**: 2026-11-23
 
 ## Popularity
 
-- **Stars**: 3,314 · **Forks**: 1,797 · **Open issues**: 0 · **Contributors**: 434
+- **Stars**: 3,315 · **Forks**: 1,797 · **Open issues**: 0 · **Contributors**: 434
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 2971 · **Open PRs**: 228 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5160
+- **Releases**: 23 · **Merged PRs**: 2978 · **Open PRs**: 226 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 5167
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 26 | 9 | 0 | 0 | 56 |
-| last60d | 2026-09-23 | 0 | 45 | 22 | 0 | 0 | 58 |
-| 90d | 2026-08-24 | 0 | 57 | 25 | 0 | 0 | 62 |
-| last180d | 2026-05-26 | 1 | 137 | 72 | 0 | 0 | 148 |
-| 360d | 2025-11-27 | 1 | 314 | 91 | 0 | 0 | 318 |
-| last720d | 2024-12-02 | 1 | 567 | 109 | 0 | 0 | 595 |
+| 30d | 2026-10-24 | 0 | 33 | 7 | 0 | 0 | 62 |
+| last60d | 2026-09-24 | 0 | 52 | 20 | 0 | 0 | 64 |
+| 90d | 2026-08-25 | 0 | 64 | 22 | 0 | 0 | 65 |
+| last180d | 2026-05-27 | 1 | 144 | 70 | 0 | 0 | 140 |
+| 360d | 2025-11-28 | 1 | 321 | 89 | 0 | 0 | 310 |
+| last720d | 2024-12-03 | 1 | 574 | 107 | 0 | 0 | 602 |
 
 ## Distribution status
 
-Reported by **206** distros on [repology.org](https://repology.org/project/avro). **25** are ✅ on the latest upstream release, **176** are ⚠️ on an older version.
+Reported by **207** distros on [repology.org](https://repology.org/project/avro). **25** are ✅ on the latest upstream release, **177** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.12.1` | ⚠️ outdated |
+| Debian unstable | `1.12.2` | ✅ latest |
 | Debian 14 | `1.12.2` | ✅ latest |
 | Debian 13 | `1.12.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:38:16Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T10:17:57Z._
