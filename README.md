@@ -57,29 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 32 | 6 | 0 | 0 | 63 |
-| last60d | 2026-09-25 | 0 | 52 | 19 | 0 | 0 | 65 |
-| 90d | 2026-08-26 | 0 | 65 | 20 | 0 | 0 | 66 |
-| last180d | 2026-05-28 | 1 | 144 | 69 | 0 | 0 | 141 |
-| 360d | 2025-11-29 | 1 | 322 | 88 | 0 | 0 | 311 |
-| last720d | 2024-12-04 | 1 | 575 | 106 | 0 | 0 | 603 |
-
-## Distribution status
-
-Reported by **207** distros on [repology.org](https://repology.org/project/avro). **25** are ✅ on the latest upstream release, **177** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.12.2` | ✅ latest |
-| Debian 14 | `1.12.2` | ✅ latest |
-| Debian 13 | `1.12.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.12.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.11.1` | ⚠️ outdated |
-| Homebrew | `1.12.2` | ✅ latest |
-| Fedora rawhide | `1.12.0` | ⚠️ outdated |
-| Nix unstable | `1.12.2` | ✅ latest |
-| Alpine edge | `1.12.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.12.1` | ⚠️ outdated |
+| 30d | 2026-10-26 | 0 | 29 | 6 | 0 | 0 | 63 |
+| last60d | 2026-09-26 | 0 | 52 | 19 | 0 | 0 | 65 |
+| 90d | 2026-08-27 | 0 | 65 | 19 | 0 | 0 | 66 |
+| last180d | 2026-05-29 | 1 | 144 | 69 | 0 | 0 | 141 |
+| 360d | 2025-11-30 | 1 | 319 | 88 | 0 | 0 | 311 |
+| last720d | 2024-12-05 | 1 | 575 | 106 | 0 | 0 | 603 |
 
 ## Improve this data
 
@@ -90,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:39:47Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:02:54Z._
