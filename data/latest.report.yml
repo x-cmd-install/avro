@@ -7,7 +7,7 @@ about:
   latestVersion: "release-1.12.2"
   latestRelease: "release-1.12.2"
   latestPrerelease: "release-1.10.0-rc2"
-  collectedAt: 2026-11-27T10:11:23Z
+  collectedAt: 2026-11-28T08:39:48Z
 timeline:
   created: 2009-05-21
   lastCommit: 2026-11-24
@@ -45,7 +45,7 @@ language:
 totalBytes: 10158412
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 29
     openPR: 6
@@ -53,7 +53,7 @@ recent:
     openIssue: 0
     commit: 63
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 48
     openPR: 19
@@ -61,15 +61,15 @@ recent:
     openIssue: 0
     commit: 65
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 65
+    mergedPR: 64
     openPR: 19
     closedIssue: 0
     openIssue: 0
     commit: 66
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 1
     mergedPR: 140
     openPR: 69
@@ -77,7 +77,7 @@ recent:
     openIssue: 0
     commit: 141
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 1
     mergedPR: 318
     openPR: 88
@@ -85,9 +85,9 @@ recent:
     openIssue: 0
     commit: 311
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 1
-    mergedPR: 572
+    mergedPR: 570
     openPR: 106
     closedIssue: 0
     openIssue: 0
@@ -101,7 +101,7 @@ total:
   commit: 5168
 ---
 path: /home/runner/.x-repo/github.com/apache/avro
-collectedAt: 2026-11-27T10:11:42Z
+collectedAt: 2026-11-28T08:40:02Z
 loc:
   Java:
     code: 98433
