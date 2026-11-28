@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 29 | 6 | 0 | 0 | 63 |
-| last60d | 2026-09-28 | 0 | 48 | 19 | 0 | 0 | 65 |
-| 90d | 2026-08-29 | 0 | 65 | 19 | 0 | 0 | 66 |
-| last180d | 2026-05-31 | 1 | 140 | 69 | 0 | 0 | 141 |
-| 360d | 2025-12-02 | 1 | 318 | 88 | 0 | 0 | 311 |
-| last720d | 2024-12-07 | 1 | 572 | 106 | 0 | 0 | 601 |
+| 30d | 2026-10-29 | 0 | 29 | 6 | 0 | 0 | 63 |
+| last60d | 2026-09-29 | 0 | 48 | 19 | 0 | 0 | 65 |
+| 90d | 2026-08-30 | 0 | 64 | 19 | 0 | 0 | 66 |
+| last180d | 2026-06-01 | 1 | 140 | 69 | 0 | 0 | 141 |
+| 360d | 2025-12-03 | 1 | 318 | 88 | 0 | 0 | 311 |
+| last720d | 2024-12-08 | 1 | 570 | 106 | 0 | 0 | 601 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for avro lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:12:02Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:40:25Z._
